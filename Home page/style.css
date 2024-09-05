@@ -1,0 +1,438 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+/*using (#) as an id and (.) a class*/
+
+
+
+/* Navigation bar*/
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#navbar::before{
+    content: "";
+    background-color: grey;
+    position: absolute;
+    top: 0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.7;  
+}
+body{
+    overflow-x: hidden;
+}
+
+/* Navigation Bar: Logo and Image */
+#logo{
+    margin: 10px 34px;
+}
+
+#logo img{
+    height: 66px;
+    margin: 3px 6px;
+}
+
+
+/* Navigation Bar: List Styling */
+
+#navbar ul{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar ul li{ 
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color: black;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+.selected_list{
+    color: black;
+    background-color: white;
+    display: block;
+    border-radius: 20px;/* Rounds the corners of an element's outer border edge */
+   }
+
+
+/*home section*/
+#home::before{
+    content:" ";
+    background:url('images/background.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 90%;
+    width: 100%;
+    z-index: -2;
+    opacity: 0.9;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 745px;
+    justify-content: center;
+    align-items: center;
+}
+#home h1{
+    color: rgb(255, 254, 254);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 25px;
+}
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: serif;
+}
+
+
+
+
+    /*services section*/
+    #services{
+        margin: 34px;
+        display: flex;
+ background-color: aliceblue;
+      
+    }
+    #services .box{ 
+        border: 1px solid rgba(5, 5, 5, 0.863);
+    
+        padding: 34px;
+        background-color: grey;
+        margin: 4px 59px;
+        border-radius: 100px;
+        
+        margin-bottom: 20px;
+    }
+   
+    
+    #services .box img{ 
+       height: 200px;
+       margin: auto;
+       display: block;
+    }
+    
+    #services .box p{
+        font-family: 'Bree Serif', serif;
+    } 
+    #services .box :hover{
+        color: rgb(255, 255, 255);
+    }
+   
+    
+    /*Our products section*/
+    
+    .product{
+      
+        width: 300px;
+        height: 100%;
+       background-color: var(--sectionBack);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 25px 25px 38px;
+        border-radius: 10px;
+        transition: .3s;
+        background-color:white;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        
+    }
+    .products{
+        width: 102%;
+        align-self: center;
+        height: 70%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 60px;
+        background-color:lightgray
+        
+    }
+   
+ 
+    
+    .product:hover{
+        transform: translateY(-10px);
+        box-shadow: 0 5px 10px 28px rgba(0, 0, 0, .2);
+    }
+    .image{
+        width:100%;
+        height: 60%;
+        display: grid;
+        place-content: center;
+    }
+    .image img{
+        width: 240px;
+    }
+    .namePrice{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .namePrice h3{
+        font-size: 2em;
+        text-transform: capitalize;
+        color: var(--textColor);
+    }
+    .namePrice span{
+        font-size: 1.5em;
+        color: var(--starColor);
+    }
+    .product p{
+        font-size: 18px;
+        line-height: 25px;
+    }
+ 
+    
+    .buy button{
+        padding: 10px 20px;
+        border-radius: 7px;
+        border: none;
+        background-color: var(--textColor);
+        color: var(--sectionBack);
+        font-size: 18px;
+        text-transform: capitalize;
+        cursor: pointer;
+        transition: .5s;
+    }
+    .buy button:hover{
+        transform: scale(1.1);
+    }
+    .products .box-container{
+        display: flex;
+        flex-wrap: wrap;
+        gap:1.5rem;
+    }
+/*about us section*/
+
+#about{
+    margin: 34px;
+    display: flex;
+
+}
+#aboutus .box{ 
+    border: 8px ridge rgba(0, 0, 0, 0.863);
+
+    padding: 34px;
+    background-color:grey;
+    margin: 4px 59px;
+    border-radius: 100px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+#aboutus .box img{ 
+   height: 200px;
+   margin: auto;
+   display: block;
+}
+
+#aboutus .box p{
+    font-family: 'Bree Serif', serif;
+} 
+#aboutus .box :hover{
+    color: rgb(246, 246, 248);
+}
+
+
+
+
+
+
+
+/*Utility classes to give styling to  our services, products and about us sections*/
+
+
+
+.h-primary{
+    
+    font-family: serif;
+     font-size: 3.8rem;
+     padding: 11px; 
+     color:rgb(237, 237, 241);
+   
+     background: url(images/productbg.jpg);
+    
+     
+    
+      
+ }
+ 
+    
+ 
+ .h-third{
+     font-family: serif;
+     font-size: 5.8rem;
+     padding: 21px; 
+   
+   
+     background: url(images/productbg.jpg);
+     
+ }
+ .h-fourth{
+     
+     font-family: serif;
+     font-size: 3.5rem;
+     padding: 21px; 
+     color:rgb(255, 255, 255);
+    
+     background: url(images/productbg.jpg);
+
+     
+ }
+ .h-sixth{
+    font-family: serif;
+    font-size: 3.5rem;
+    padding: 21px; 
+    color:rgb(255, 255, 255);
+  
+    background: url(images/productbg.jpg);
+ }
+ .h-seventh{
+    font-family: serif;
+    font-size: 3.5rem;
+    padding: 21px; 
+    color:rgb(255, 255, 255);
+    
+    background: url(images/productbg.jpg);
+ }
+ 
+
+ 
+.btn{
+padding: 18px 22px;
+border: 7px solid rgb(143, 139, 139);
+
+color: rgb(0, 0, 0);
+margin: 17px;
+font-size: 1.5rem;
+border-radius: 10px;
+cursor: grab;
+}
+
+
+.center{
+    text-align: center;
+}
+
+
+/*about us */
+
+
+
+/*footer starts*/
+body{
+    line-height: 1.5;
+    font-family: serif;
+}
+
+.container{
+    max-width:1170px ;
+  
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul {
+    list-style: none;
+}
+.footer{
+    content:" ";
+    background:url('images/footerimg.jpeg') no-repeat center center/cover;
+    position: absolute;
+    height: 55%;
+    width: 100%;
+    z-index: -2;
+    opacity: 0.9;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+padding: 70px 0;
+}
+.footer-col{
+width: 25%;
+padding: 0 15px;
+}
+.footer-col h4{
+    font-size:18px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+ 
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -12px;
+    background-color: rgb(248, 245, 245);
+    height: 3px;
+    box-sizing: border-box;
+    width: 50px;
+    color: white;
+}
+.footer-col ul li:not(:last-child){
+margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    color: white;
+    display: block;
+    transition: all 0.4s ease;
+}
+.footer-col ul li a:hover{
+    padding-left: 10px;
+}
+.footer-center p{
+   
+    padding:1rem;
+    margin-top: 0.8rem;
+    padding-top: 2rem;
+    font-size: 0.9rem;
+    color:#ffffff;
+    padding-bottom: 9rem;
+}
+

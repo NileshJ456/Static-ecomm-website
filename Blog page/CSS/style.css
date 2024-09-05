@@ -1,0 +1,162 @@
+.container {
+  display: flex;
+}
+
+/* Header Styles */
+header {
+  text-align: center;
+  background-color: darkblue;
+  height: 200px;
+  width: 100%;
+}
+
+.logo {
+  background-color: darkblue;
+  width: 220px;
+  height: auto;
+  position: relative;
+  left: 15px;
+  top: 25px;
+  right: 10px;
+  bottom: 20px;
+}
+
+nav {
+  position: relative;
+  left: 15%;
+  bottom: 70px;
+  font-family: Times New Roman;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: black;
+  background-color: white;
+  display: block;
+  border-radius: 20px;
+}
+
+.selected_list {
+  color: black;
+  background-color: white;
+  display: block;
+  border-radius: 20px;
+}
+body{
+  overflow-x:hidden ;
+}
+
+
+/* Slider Styles */
+#slider {
+  text-align: center;
+}
+
+#slider-image {
+  width: 400px;
+  height: 300px;
+}
+
+/* Blog Content Styles */
+.blog-content {
+  padding: 20px;
+  margin: 20px;
+  background-color: #f1f1f1;
+}
+
+.blog-content h2 {
+  font-size: 20px;
+}
+
+.blog-content p {
+  font-size: 14px;
+}
+
+.container .blog-content .left{
+  margin-right: 300px;
+}
+
+.container .blog-content .right{
+  margin-right: 300px;
+}
+
+/* Sidebar Styles */
+.sidebar {
+  background-color: #f1f1f1;
+  padding: 20px;
+  width: 200px;
+}
+
+.sidebar h2 {
+  font-size: 16px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: darkblue;
+  color: white;
+  padding: 20px;
+  height:330px ;
+  width: 100%;
+}
+.container .footer-col {
+  width: 25%;
+  padding: 0 15px;
+  align-content: center;
+}
+
+.container .footer-col h4 {
+  font-size: 18px;
+  color: white;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+
+.container .footer-col h4::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -12px;
+  background-color: rgb(248, 245, 245);
+  height: 3px;
+  box-sizing: border-box;
+  width: 50px;
+  color: white;
+}
+
+.container .footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.container .footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: white;
+  text-decoration: none;
+  font-weight: 300;
+  display: block;
+  transition: all 0.4s ease;
+  position: relative;
+  right: 40px;
+}
+
+.container .footer-col ul li a:hover {
+  padding-left: 10px;
+}

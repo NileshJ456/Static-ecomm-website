@@ -1,0 +1,350 @@
+.cardimage1{
+   	height: 60%;
+   	width: 100%;
+   }
+   .card-body1{
+   	height: 40%;
+   	width:100%;
+   	bottom:0;
+   	right:-100%;/*hides your card behind*/
+   	position: absolute;/*positions relative to the nearest positioned ancestor*/
+   	background-color: lightcyan;
+   	color: black;
+   	display: flex;/*Automatically align like column or row with auto width and auto height*/
+   	flex-direction: column;/*sets flex direction to column*/
+   	justify-content: center;/*sets content in the center of the card*/
+   }
+   .one:hover .card-body1{
+   	right: 0;/*displays infromation coming from right*/
+   }
+   .cardimage2{
+      height: 60%;
+      width: 100%;
+   }
+   .card-body2{
+      height: 50%;
+      width:100%;
+      bottom:0;
+      right:-100%;
+      position: absolute;
+      background-color: lightcyan;
+      color: black;s
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+   }
+   .two:hover .card-body2{
+      right: 0;
+   }
+   .cardimage3{
+      height: 60%;
+      width: 100%;
+   }
+   .card-body3{
+      height: 40%;
+      width:100%;
+      bottom:0;
+      right:-100%;
+      position: absolute;
+      background-color: lightcyan;
+      color: black;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+   }
+   .three:hover .card-body3{
+      right: 0;
+   }
+   .cardimage4{
+      height: 60%;
+      width: 100%;
+   }
+   .card-body4{
+      height: 40%;
+      width:100%;
+      bottom:0;
+      right:-100%;
+      position: absolute;
+      background-color: lightcyan;
+      color: black;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+   }
+   .four:hover .card-body4{
+      right: 0;
+   }
+   .cardimage5{
+      height: 60%;
+      width: 100%;
+   }
+   .card-body5{
+      height: 40%;
+      width:100%;
+      bottom:0;
+      right:-100%;
+      position: absolute;
+      background-color: lightcyan;
+      color: black;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+   }
+   .five:hover .card-body5{
+      right: 0;
+   }
+   .cardimage6{
+      height: 60%;
+      width: 100%;
+   }
+   .card-body6{
+      height: 50%;
+      width:100%;
+      bottom:0;
+      right:-100%;
+      position: absolute;
+      background-color: lightcyan;
+      color: black;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+   }
+   .six:hover .card-body6{
+      right: 0;
+   }
+   .cardimage7{
+      height: 60%;
+      width: 100%;
+   }
+   .card-body7{
+      height: 50%;
+      width:100%;
+      bottom:0;
+      right:-100%;
+      position: absolute;
+      background-color: lightcyan;
+      color: black;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+   }
+   .seven:hover .card-body7{
+      right: 0;
+   }
+   .cardimage8{
+      height: 60%;
+      width: 100%;
+   }
+   .card-body8{
+      height: 40%;
+      width:100%;
+      bottom:0;
+      right:-100%;
+      position: absolute;
+      background-color: lightcyan;
+      color: black;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+   }
+   .eight:hover .card-body8{
+      right: 0;
+   }
+   .cardimage9{
+      height: 60%;
+      width: 100%;
+   }
+   .card-body9{
+      height: 40%;
+      width:100%;
+      bottom:0;
+      right:-100%;
+      position: absolute;
+      background-color: lightcyan;
+      color: black;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+   }
+   .nine:hover .card-body9{
+      right: 0;
+   }
+   .cardimage10{
+      height: 60%;
+      width: 100%;
+   }
+   .card-body10{
+      height: 40%;
+      width:100%;
+      bottom:0;
+      right:-100%;
+      position: absolute;
+      background-color: lightcyan;
+      color: black;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+   }
+   .ten:hover .card-body10{
+      right: 0;
+   }
+   .cardimage11{
+      height: 60%;
+      width: 100%;
+   }
+   .card-body11{
+      height: 40%;
+      width:100%;
+      bottom:0;
+      right:-100%;
+      position: absolute;
+      background-color: lightcyan;
+      color: black;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+   }
+   .eleven:hover .card-body11{
+      right: 0;
+   }
+   .cardimage12{
+      height: 60%;
+      width: 100%;
+   }
+   .card-body12{
+      height: 40%;
+      width:100%;
+      bottom:0;
+      right:-100%;
+      position: absolute;
+      background-color: lightcyan;
+      color: black;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+   }
+   .twelve:hover .card-body12{
+      right: 0;
+   }
+   .cardimage13{
+      height: 60%;
+      width: 100%;
+   }
+   .card-body13{
+      height: 40%;
+      width:100%;
+      bottom:0;
+      right:-100%;
+      position: absolute;
+      background-color: lightcyan;
+      color: black;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+   }
+   .thirteen:hover .card-body13{
+      right: 0;
+   }
+   .cardimage14{
+      height: 60%;
+      width: 100%;
+   }
+   .card-body14{
+      height: 50%;
+      width:100%;
+      bottom:0;
+      right:-100%;
+      position: absolute;
+      background-color: lightcyan;
+      color: black;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+   }
+   .fourteen:hover .card-body14{
+      right: 0;
+   }
+   .cardimage15{
+      height: 60%;
+      width: 100%;
+   }
+   .card-body15{
+      height: 40%;
+      width:100%;
+      bottom:0;
+      right:-100%;
+      position: absolute;
+      background-color: lightcyan;
+      color: black;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+   }
+   .fifteen:hover .card-body15{
+      right: 0;
+   }
+   .cardimage16{
+      height: 60%;
+      width: 100%;
+   }
+   .card-body16{
+      height: 40%;
+      width:100%;
+      bottom:0;
+      right:-100%;
+      position: absolute;
+      background-color: lightcyan;
+      color: black;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+   }
+   .sixteen:hover .card-body16{
+      right: 0;
+   }
+   .cardimage17{
+      height: 60%;
+      width: 100%;
+   }
+   .card-body17{
+      height: 40%;
+      width:100%;
+      bottom:0;
+      right:-100%;
+      position: absolute;
+      background-color: lightcyan;
+      color: black;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+   }
+   .seventeen:hover .card-body17{
+      right: 0;
+   }
+   .cardimage18{
+      height: 60%;
+      width: 100%;
+   }
+   .card-body18{
+      height: 40%;
+      width:100%;
+      bottom:0;
+      right:-100%;
+      position: absolute;
+      background-color: lightcyan;
+      color: black;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+   }
+   .eighteen:hover .card-body18{
+      right: 0;
+   }
+   .cardimage19{
+      height: 60%;
+      width: 100%;
+   }
+   .cardimage20{
+      height: 60%;
+      width: 100%;
+   

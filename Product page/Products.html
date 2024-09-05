@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+
+<!--For setting file type to html-->
+<html>
+<head>
+	
+	<!--To set name for browser tab-->
+	<title>Products</title>
+	
+	<!--This is tag useful for navigating this web page-->
+	<meta name="description" content="Products list Camera"/>
+	<meta name="keywords" content="Productz">
+	<meta name="author" content="NILESH">
+	
+	<!--For linking external CSS-->
+	<link rel="stylesheet" type="text/css" href="CSS/styling.css">
+	<link rel="stylesheet" type="text/css" href="CSS/hover.css">
+	
+	<!--Internal CSS-->
+	<style type="text/css">
+		/*This is css style for all page to have margin 0*/
+		*{
+			
+			margin: 0px;
+		}
+		/*This is css style for page where products are kept*/
+		.main{
+			background-color:skyblue;/*changes background color to sky blue*/
+			height:2300px;/*defines height of the main class*/
+			width: 100%;/*defines how much width is occupied by the main class*/
+			display: flex;/*Automatically align like column or row with auto width and auto height*/
+			justify-content: space-evenly;/* provides even spaces between the products*/
+			font-family: Arial;/*makes every font syle to arial in main class*/
+			font-weight: bold;/*changes every font to bold*/
+			overflow: hidden;/*overflow is clipped and rest of the content is hidden*/
+		}
+	</style>
+</head>
+<body style="background-color:#0f0d45;">
+
+	<!--This is division for whole body part-->
+	<div style="background-color: royalblue; height: 2900px; width:90%; margin:0px auto;overflow: hidden;">
+	
+	<!--This is division for header-->
+	<div>
+    <header>    
+    <!--This is division for logo-->
+	<div class="logo">
+       <img src="images/Logo.png" height="100%" width="100%">
+	</div>
+	<!--This is division for navigation bar-->
+        <div>
+        <nav>
+			<table border=0px; width="60%" height="10px">
+				<tr align="center" >
+					<td><a href="../Home page/index.html">Home</a></td>
+					<td><a href="../Product page/Products.html" class="selected_list">Products </a></td>
+					<td><a href="../Blog page/blog.html">Blog</a></td>
+					<td><a href="../About us page/about.html">About us</a></td>
+					<td><a href="../Research page/Research.html">Research</a></td>
+				</tr>
+			</table>
+		</nav>
+        </div>	
+    </header>
+    </div><br>
+    <!--Topic for Product list-->
+    <h1 style="margin-left: 750px; font-size: 3.4rem;">Products:</h1>
+
+    <!--This is division for main body part where products are listed-->
+    <div class="main">
+    	<table>
+    		<tr>
+    			<td>
+    				<div class="one">
+                        <!--This is tag fro inserting images-->
+    					<img src=images/1.png class="cardimage1" >	
+    					<h2 style="color: red;">EOS 6D Mark II Kit (EF24-105mm f/4L IS II USM)</h2><br><br>
+                        <h3 style="color:blue;">Rs 2,00,000</h3>
+    					<div class="card-body1">
+                          <h2>Description:</h2>
+                         	<!--This is tag for listing -->
+                         	<ul>
+                         		<li>26.2MP Full-Frame CMOS Sensor</li>
+                                <li>DIGIC 7 Image Processor</li>
+                                <li>45-Point All-Cross Type AF System</li>
+                                <li>Full HD Video at 60 fps; Digital IS</li>
+                                <li>Dual Pixel CMOS AF and Movie Servo AF</li>
+                                <li>Built-In GPS, Bluetooth & Wi-Fi with NFC</li>
+                         	</ul>	
+    				    </div>
+                    </div>
+    			</td>	
+    			<td>
+    				<div class="two">
+    					<img src="images/2.png" class="cardimage2">
+    					<h2 style="color: red;">GoPro Hero10 Black Waterproof A. Camera</h2><br><br>
+    					<h3 style="color :blue;">Rs 80,000</h3><br>
+    					<p>Discount%: 5%<br><del>Rs 80,000</del>  Rs 64,000</p>
+    					<div class="card-body2">
+                          <h2>Description:</h2>
+                            <ul>
+                            	<li>GP2 processor delivers high frame rates and a fast, smooth user interface</li>
+                                <li>Unreal 5.3K 60 + 4K120 video resolution + 23 megapixel photos</li>
+                                <li>Advanced HyperSmooth 4.0 video stabilization</li>
+                                <li>Waterproof to 33ft + built tough</li>
+                                <li>Automatically upload footage to the cloud when charging</li>
+                                <li>TimeWarp 3.0, 8X Slo-Mo + tons of other features to nail any shot</li>
+                            </ul>    						
+    					</div>
+    				</div>	
+    			</td>
+    			<td>
+    				<div class="three">
+    					<img src="images/3.png" class="cardimage3">
+    					<h2 style="color:red">Nikon Z6 II Mirrorless Camera Body</h2><br><br>
+    					<h3 style="color:blue;">Rs 2,60,000</h3>
+    					<div class="card-body3">
+    						<h2>Description:</h2>
+    						<ul>
+    							<li>24.5MP FX-Format BSI CMOS Sensor</li>
+    							<li>Dual EXPEED 6 Image Processors</li>
+    							<li>Dual Memory Card Slots</li>
+    							<li>14 fps Cont. Shooting, ISO 100-51200</li>
+    							<li>UHD 4K30 Video; N-Log & 10-Bit HDMI Out</li>
+    							<li>5-Axis In-Body Vibration Reduction</li>
+    						</ul>
+    					</div>
+    				</div>	
+    			</td>
+                <td>
+                    <div class="four">
+                    	<img src="images/4.png" class="cardimage4">
+                    	<h2 style="color:red;">Insta360 X3 360Â° Action Camera </h2><br><br><br>
+                    	<h3 style="color:blue">Rs 75,000</h3><br>
+                        <p>Discount%: 10%<br><del>Rs 75,000</del>  Rs 67,500</p>
+                    	<div class="card-body4">
+                    		<h2>Description:</h2>
+                    		<ul>
+                    			<li>Dual-Mode 360 & Standard Pocket Camera</li>
+                                <li>1/2" Sensor, 72MP 360° Photos</li>
+                                <li>5.7K Dual-Lens 360 Auto-Stitched Capture</li>
+                                <li>4K Single-Lens Standard Camera Mode</li>
+                                <li>6-Axis Gyroscope</li>
+                                <li>FlowState Stabilization</li>
+                    		</ul>	
+                    	</div>
+                    </div>
+                </td>
+    		</tr>
+    		<tr>
+    			<td>
+    				<div class="five">
+    					<img src="images/5.png" class="cardimage5">
+    					<h2 style="color:red;">Canon EF 75-300mm f/4-5.6</h2><br><br>
+    					<h3 style="color:blue;">Rs 26,000</h3>
+    					<div class="card-body5">
+    						<h2>Description:</h2>
+    		                <ul>
+    							<li>Focal length: 75-300mm</li>
+                                <li>Maximum aperture: 1:4-5.6</li>
+                                <li>Lens construction: 13 elements in 9 groups</li>
+                                <li>Closest focusing distance: 4.9 feet</li>
+                                <li>Zoom system: Rotating type</li>
+                                <li>Filter size: 58mm</li>
+    						</ul>	
+    					</div>
+    				    </div>
+    			</td>
+    			<td>
+    				<div class="six">
+    					<img src="images/6.png" class="cardimage6">
+    					<h2 style="color:red;">Canon EF 50mm f/1.8 STM Lens</h2><br><br>
+    					<h3 style="color:blue;">Rs 1,17,000</h3>
+    					<div class="card-body6">
+    						<h2>Description:</h2>
+    						<ul>
+    							<li>50 millimeter focal length and maximum aperture of f/1.8</li>
+                                <li>Great for portraits, action, and nighttime photography; Angle of view (horizontal, vertical, diagonal): 40º, 27º,46º</li>
+                                <li>Minimum focusing distance of 1.15 feet (0.35 meter) and a maximum magnification of 0.21x</li>
+                                <li>Stepping motor (STM) delivers near silent, continuous move Servo AF for movies and smooth AF for stills</li>
+    						</ul>	
+    					</div>
+    				</div>
+    			</td>
+    			<td>
+    				<div class="seven">
+    					<img src="images/7.png" class="cardimage7">
+    					<h2 style="color:red">Sony FE 12-24mm F2.8 G Master Full-Frame Constant-Aperture Ultra-Wide Zoom Lens</h2><br>
+    					<h3 style="color:blue;">Rs 1,00,000</h3>
+    					<p>Discount%: 15%<br><del>Rs 1,00,000</del>  Rs 85,000</p>
+    					<div class="card-body7">
+    						<h2>Description:</h2>
+    						<ul><li>World’s widest full-frame constant F2.8 at 12-24mm</li>                                    
+                                <li>F2.8 max aperture provides extraordinary exposure and depth of field</li>
+                                <li>Spectacular resolution: 3x Extreme Aspheric elements, 1x Aspheric</li>
+                                <li>3x ED (Extra-low dispersion) elements suppress chromatic aberrations</li>
+                                <li>4x Extreme Dynamic - XD Linear motors for fast, precise autofocus</li>
+    						</ul>
+    					</div>
+    				</div>
+    			</td>
+    			<td>
+    				<div class="eight">
+    					<img src="images/8.png" class="cardimage8">
+    					<h2 style="color:red;">SIRUI 24mm Anamorphic Lens F2.8 1.33X APS-C Camera Lens</h2><br><br>
+    					<h3 style="color:blue">Rs 50,000</h3>
+    					<div class="card-body8">
+    						<h2>Description:</h2>
+    						<ul>
+    							<li>Suitable for 4K Image Capture</li>
+                                <li>2.4:1 De-Squeezed Format; 8-Blade Iris</li>
+                                <li>Schott Optical Glass with Nano Coatings</li>
+                                <li>Blue Streak Effects; Less Stray Light</li>
+                                <li>Just under 2' Minimum Focus</li>
+                                <li>Focus Scales in Feet & Meters</li>
+    						</ul>
+    					</div>
+    				</div>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td>
+    				<div class="nine">
+    					<img src="images/9.png" class="cardimage9">
+    					<h2 style="color:red;">GoPro Tripod Mount + 3way Tripod</h2><br><br><br>
+    					<h3 style="color:blue;">Rs 65,000</h3><br>
+    					<div class="card-body9">
+    						<h2>Description:</h2>
+    						<ul>
+    							<li>Tripod Mount for GoPro Housing</li>
+                                <li>Quick Release Base Tripod Mount</li>
+                                <li>Mini Tripod with Three-Prong Mount</li>
+    						</ul>
+    					</div>
+    				</div>
+    			</td>
+    			<td>
+    				<div class="ten">
+    					<img src="images/10.png" class="cardimage10">
+    					<h2 style="color:red;">Benro TMA27A Mach 3 Aluminum Tripod</h2><br><br>
+    					<h3 style="color:blue;">Rs 50,000</h3>
+    					<div class="card-body10">
+    					    <h2>Description:</h2>
+    						<ul>
+    							<li>Tripod Load Capacity :  12 kg / 26.5 lb</li>
+                                <li>Maximum Height : 161.5 cm</li>
+                                <li>Tripod Weight : 1.8 kg</li>
+                                <li>Material : Aluminum Alloy</li>
+                                <li>Center Column : Removable</li>
+                                <li>Section : 3</li>
+    						</ul>
+    					</div>
+    				</div>
+    			</td>
+    			<td>
+    				<div class="eleven">
+    					<img src="images/11.jpg" class="cardimage11">
+    					<h2 style="color:red;">Sirui AR-3204 Carbon Fiber Tripod</h2><br><br><br>
+    					<h3 style="color:blue;">Rs 2,85,000</h3><br>
+    					<p>Discount%: 20%<br><del>Rs 2,85,000</del> Rs 2,28,000
+    					<div class="card-body11">
+    						<h2>Description:</h2>
+    						<ul>
+    							<li>Load Capacity : 25 kg / 55 lb</li>
+                                <li>Max. Height : 59″ (1.5 m)</li>
+                                <li>Weight : 2.0 kg</li>
+                                <li>Material : Carbon Fiber</li>
+                                <li>Section : 4</li>
+    						</ul>
+    					</div>   
+    				</div>
+    			</td>
+    			<td>
+    				<div class="twelve">
+    					<img src="images/12.jpg" class="cardimage12">
+    					<h2 style="color:red">Benro TTOR24CGX30 Carbon Fiber Tripod Kit</h2><br><br>
+    					<h3 style="color:blue">Rs 1,50,000</h3>
+    					<div class="card-body12">
+    						<h2>Description:</h2>
+    						<ul>
+    							<li>Tripod Load Capacity : 14 kg / 30.8 lb</li>
+                                <li>Maximum Height : 130 cm</li>
+                                <li>Waterproof : No</li>
+                                <li>Tripod Weight : 1.51 Kg</li>
+                                <li>Head Weight : 380 g</li>
+                                <li>Material : Carbon Fiber</li>
+    						</ul>
+    					</div>
+    				</div>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td>
+    				<div class="thirteen">
+    					<img src="images/13.png" class="cardimage13">
+    					<h2 style="color:red;">Canon XH-A1S HDV Camcorder</h2><br><br><br>
+    					<h3 style="color:blue;">Rs 1,70,000</h3><br>
+    					<p>Discount: 5%<br><del>Rs 1,70,000</del>  Rs 1,61,500</p>
+                        <div class="card-body13">
+                        	<h2>Description:</h2>
+                        	<ul>
+                        		<li>Model: XH-A1S</li>
+                        		<li>Signal System: NTSC | MiniDV | HDV: 1080i/60i, 1080i/30f, 1080i/24f</li>	
+                        		<li>Sensitivity: f/1.6-3.5mm</li>
+                        		<li>Maximum Recording Time: 80 min</li>
+                        		<li>Power Requirements: 100-240VAC, 50/60Hz | 7.4VDC</li>
+                        		<li>Weight: 5.3 lbs (2.4kg)</li>
+                        	</ul>
+                        </div>
+    				</div>	
+    			</td>
+    		    <td>
+    		<div class="fourteen">
+    			<img src="images/14.png" class="cardimage14">
+    			<h2 style="color:red;">Canon PowerShot G1 X Mark II 12.8 MP Digital Camera</h2><br><br>
+    			<h3 style="color:blue;">Rs 78,000</h3>
+    			<div class="card-body14">
+    				<h2>Description:</h2>
+    				<ul>
+    					<li>Model: PowerShot G1 X</li>
+                        <li>Image Sensor: 1.5 type (18.7 mm x 14.0 mm) Canon high-sensitivity CMOS</li>
+                        <li>Image Processor: DIGIC 6 with iSAPS technology</li>
+                        <li>Color Matrix: sRGB</li>
+                        <li>Memory Card Type: SD, SDHC, SDXC</li>
+                        <li>Playback zoom: Approx. 2x – 10x</li>
+                        <li>Weight: Approx. 558 g</li>
+    				</ul>
+    			</div>
+    		</div>
+    		    </td>
+    		    <td>
+    		    	<div class="fifteen">
+    		    		 <img src="images/15.png" class="cardimage15">
+    		    		 <h2 style="color:red;">Sony a7S||Mirrorless Camera</h2><br><br><br>
+    		    		 <h3 style="color:blue;">Rs 4,00,000</h3><br>
+    		    		 <p>Discount: 25%<br><del>Rs 4,00,000</del> Rs 3,00,000</p>
+    		    	     <div class="card-body15">
+    		    		      <h2>Description:</h2>
+                              <ul>
+                                 <li>12MP Full-Frame Exmor R BSI CMOS Sensor</li>
+                                 <li>UHD 4K 120p Video, 10-Bit 4:2:2 Internal</li>
+                                 <li>16-Bit Raw Output, HLG & S-Cinetone</li>
+                                 <li>9.44m-Dot QXGA OLED EVF</li>
+                                 <li>5-Axis SteadyShot Image Stabilization</li>
+                                 <li>Dual CFexpress Type A/SD Card Slots</li>	
+                              </ul>
+                         </div>     
+    		    	</div>
+                </td>
+                <td>
+                	<div class="sixteen">
+                		<img src="images/16.png" class="cardimage16">
+                		<h2 style="color:red;">Panasonic Lumix DCZS80 Digital Camera</h2><br><br>
+                		<h3 style="color:blue;">Rs 60,000</h3>
+                		<div class="card-body16">
+                			<h2>Description:</h2>
+                			<ul>
+                				<li>20.3MP High-Sensitivity MOS Sensor</li>
+                				<li>Leica DC Vario-Elmar 30x Zoom Lens</li>
+                				<li>4K Video and 4K PHOTO Modes</li>
+                				<li>Post Focus and Focus Stacking</li>
+                				<li>Body Design and Built-In Wi-Fi</li>
+                				<li>64GB Extreme PRO UHS-I SDXC Memory Card from SanDisk</li>
+                			</ul>
+                		</div>
+                	</div>
+                </td>	
+            </tr>
+            <tr>
+            	<td>
+            		<div class="seventeen">
+            			<img src="images/17.png" class="cardimage17">
+            			<h2 style="color:red;">GoPro Casey Semi-Hard Camera Case</h2><br><br>
+            			<h3 style="color:blue">Rs 6,468</h3>
+            			<div class="card-body17">
+            				<h2>Description:</h2>
+            				<ul>
+            					<li>Keep your camera and gear safe with this compression-molded case</li>
+                                <li>Semi-rigid, weather-resistant shell</li>
+                                <li>Customizable camera and accessories storage</li>
+                                <li>Padded interior with soft tricot lining</li>
+                                <li>Removable mesh pouch for batteries, SD cards and small personal items</li>
+                                <li>Soft-grab carry handle</li>
+            				</ul>
+            			</div>
+            		</div>
+            	</td>
+            	<td>
+            		<div class="eighteen">
+            			<img src="images/18.png" class="cardimage18">
+            			<h2 style="color:red;">Phototools Pacific Series Mirrorless Camera Bag</h2><br><br>
+            			<h3 style="color:blue;">Rs 4,000</h3>
+            			<div class="card-body18">
+            				<h2>Description:</h2>
+            				<ul>
+            					<li>Waterproof</li>
+            					<li>Big space for camera equipments</li>
+            					<li>Various pockets for various equipments</li>
+            					<li>Good material quality</li>
+            				</ul>
+            			</div>
+            		</div>
+            	</td>
+            	<td>
+            		<div class="nineteen">
+            			<img src="images/19.png" class="cardimage19">
+            			<h2 style="color:red;">SanDisk Extreme PRO 256GB UHS-I U3 SDXC Memory Card</h2><br><br>
+            			<h3 style="color:blue;">Rs 5,000</h3>
+            		</div>
+            	</td>	
+            	<td>
+            		<div class="twenty">
+            			<img src="images/20.png" class="cardimage20">
+            			<h2 style="color:red;">Samsung T7 Shield 4TB USB 3.2 Gen 2 Type-C Portable External SSD</h2><br>
+            			<h3 style="color:blue;">Rs 35,500</h3>
+            		</div>
+            	</td>
+            </tr>
+    	</table>
+    </div>
+
+    <!--Footer starts-->
+	<footer>
+		<div class="container">
+            <div class="footer-col">
+                <h4> Quick links</h4>
+                <ul style="list-style: none;">
+                    <li><a href="file:///E:/IS%20Cousework%201/Home%20page/index.html">Home</a></li>
+                    <li><a href="file:///E:/IS%20Cousework%201/Product%20page/Products.html">Products</li>
+                    <li><a href="file:///E:/IS%20Cousework%201/Blog%20page/blog.html">Blog</a></li>
+                    <li><a href="file:///E:/IS%20Cousework%201/About%20us%20page/about.html">About Us</a></li>
+                    <li><a href="file:///E:/IS%20Cousework%201/Research%20page/Research.html">Research</a></li>
+                    <li><a href="#">Services</a></li>
+                </ul><br><br>
+                 <p> Created by  Team 3  @ All Rights Reserved</p> 
+            </div>
+            <div class="footer-col">
+                <h4>Get Help</h4>
+                <ul style="list-style:none;">
+                    <li><a href="#">My Order</a></li>
+                    <li><a href="#">My Account</a></li>
+                    <li><a href="#">Favourites</a></li>
+                </ul>
+            </div>            
+            <div class="footer-col">
+                <h4>Follow us </h4>
+                <ul style="list-style:none;">
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Tiktok</a></li>
+                </ul>
+            </div> 
+        </div>
+    </footer>
+</div>
+</body>
+</html>

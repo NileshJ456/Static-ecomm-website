@@ -1,0 +1,138 @@
+ /* This is CSS style for header*/
+    header{
+    background-color: darkblue;
+    height:200px;
+    width:100%;
+    }
+    /*This is CSS style for logo*/
+   .logo{
+     background-color:darkblue;
+     width:220px; 
+     height:auto;/*sets height automatically according to width*/
+     position: relative;/*allows u to move content from its actual position*/
+     left:15px;
+     top: 25px;
+     right: 10px;
+     bottom: 20px;   
+   }
+   /* This is CSS style for navigation bar*/
+   nav{
+    position: relative;
+    left: 15%;/*margin left*/
+    bottom:70px;/*margin bottom*/
+    font-family: Times New Roman;/*applies font family to new times roman in navigation bar*/
+    font-size: 25px;
+    font-weight: bold;
+   }
+   nav a{
+    color: white;/*changes text color*/
+    text-decoration: none;/*set no text decoration*/
+   }
+   nav a:hover/*sets hover effect*/{
+    color: black;
+    background-color: white;
+    display: block;/*display an element as box element*/
+    border-radius: 20px;
+   }
+   .selected_list{
+    color: black;
+    background-color: white;
+    display: block;
+    border-radius: 20px;/* Rounds the corners of an element's outer border edge */
+   }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .card {
+        /* width: calc(20% - 20px); */
+        /* width: 200px; */
+        width:250px;
+        margin: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+      object-fit: contain;
+    }
+
+    .card-content {
+      margin-top: 10px;
+    }
+
+    .card-title {
+      font-weight: bold;
+    }
+
+    .card-description {
+      margin-top: 5px;
+    }
+ /*This is CSS style for footer*/
+   footer{
+    background-color: darkblue;
+    height: 400px;
+    width: 100%;
+    color: white;
+    margin: 100px auto;
+   }
+   .container{
+    display: flex;
+    position: relative;
+    top: 40px;
+    left:10%;
+   }
+   .footer-col{
+    width: 25%;
+    padding: 0 15px;/*works as elastic used to strengthen the size of the content*/
+   }
+   .footer-col h4{
+    font-size:18px;/*sets size for the font*/
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight:500;
+    position: relative;
+  }
+  .footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -12px;
+    background-color: rgb(248, 245, 245);
+    height: 3px;
+    box-sizing: border-box;
+    width: 50px;
+    color: white;
+  }
+  .footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+  }
+  .footer-col ul li a{
+   font-size: 16px;
+   text-transform: capitalize;
+   color: white;
+   text-decoration: none;
+   font-weight: 300;
+   color: white;
+   display: block;
+   transition: all 0.4s ease;
+   position: relative;
+   right: 40px;
+  }
+  .footer-col ul li a:hover/*sets hover effect*/{
+    padding-left: 10px;
+  }
+
+
+ 
